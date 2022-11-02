@@ -38,10 +38,12 @@ const Toggle = () => {
 
   return (
     <div>
+        <div>
         {reactShow?<h2>React</h2>:null}
         {nodejsShow?<h2>Nodejs</h2>:null}
         {mongoDBShow?<h2>MongoDB</h2>:null}
         <button onClick={okay} >Okay</button>
+        </div>
         <div>
         {reactShowButton?<button onClick={react} >React</button>:null}
         {nodejsShowButton?<button onClick={nodejs}>Nodejs</button>:null}
